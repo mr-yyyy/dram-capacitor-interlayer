@@ -1,0 +1,102 @@
+{
+ "TiN": {
+  "mp_id": "mp-492",
+  "V_MP_per_atom": 9.536536585459233,
+  "V_M3GNet_per_atom": 9.58753254935259
+ },
+ "AlN": {
+  "mp_id": "mp-661",
+  "V_MP_per_atom": 10.631820769545108,
+  "V_M3GNet_per_atom": 10.646969637805915
+ },
+ "ZrO2_mono": {
+  "mp_id": "mp-2858",
+  "V_MP_per_atom": 11.805697110602315,
+  "V_M3GNet_per_atom": 12.028421905917385
+ },
+ "ZrO2_tet": {
+  "mp_id": "mp-2574",
+  "V_MP_per_atom": 11.287393346857714,
+  "V_M3GNet_per_atom": 11.456502319017517
+ },
+ "TaN_cubic": {
+  "mp_id": "mp-251",
+  "V_MP_per_atom": 10.813257599896957,
+  "V_M3GNet_per_atom": 10.838029577450383
+ },
+ "NbN_cubic": {
+  "mp_id": "mp-1580",
+  "V_MP_per_atom": 11.033478005025378,
+  "V_M3GNet_per_atom": 11.073013072114485
+ },
+ "HfN": {
+  "mp_id": "mp-2828",
+  "V_MP_per_atom": 11.479857641273755,
+  "V_M3GNet_per_atom": 11.67063086321695
+ },
+ "ZrN": {
+  "mp_id": "mp-1352",
+  "V_MP_per_atom": 12.076221572405073,
+  "V_M3GNet_per_atom": 12.140253815302726
+ },
+ "Al2O3": {
+  "mp_id": "mp-1143",
+  "V_MP_per_atom": 8.74200193995937,
+  "V_M3GNet_per_atom": 8.759005134316164
+ },
+ "NbC": {
+  "mp_id": "mp-910",
+  "V_MP_per_atom": 11.452175976624563,
+  "V_M3GNet_per_atom": 11.426919194625766
+ },
+ "SiC": {
+  "mp_id": "mp-568656",
+  "V_MP_per_atom": 10.314281477014049,
+  "V_M3GNet_per_atom": 10.518096321964025
+ },
+ "TaC": {
+  "mp_id": "mp-1086",
+  "V_MP_per_atom": 11.147817221838448,
+  "V_M3GNet_per_atom": 11.231363946036534
+ },
+ "TiC": {
+  "mp_id": "mp-631",
+  "V_MP_per_atom": 10.157953628485911,
+  "V_M3GNet_per_atom": 10.179084992407487
+ },
+ "HfO2": {
+  "mp_id": "mp-352",
+  "V_MP_per_atom": 11.376381614199502,
+  "V_M3GNet_per_atom": 11.680650858170473
+ },
+ "Si3N4": {
+  "mp_id": "mp-988",
+  "V_MP_per_atom": 10.392616506468475,
+  "V_M3GNet_per_atom": 10.642357769853524
+ },
+ "Nb2O5": {
+  "mp_id": "mp-581967",
+  "V_MP_per_atom": 14.662601818801999,
+  "V_M3GNet_per_atom": 14.695046127098031
+ },
+ "SiO2": {
+  "mp_id": "mp-546794",
+  "V_MP_per_atom": 14.956489384349169,
+  "V_M3GNet_per_atom": 15.753095181454333
+ },
+ "Ta2O5": {
+  "mp_id": "mp-10390",
+  "V_MP_per_atom": 12.00892097923963,
+  "V_M3GNet_per_atom": 12.435734615861806
+ },
+ "TiO2": {
+  "mp_id": "mp-554278",
+  "V_MP_per_atom": 12.225526917683998,
+  "V_M3GNet_per_atom": 12.27627271645788
+ },
+ "Y2O3": {
+  "mp_id": "mp-2652",
+  "V_MP_per_atom": 14.920692272925162,
+  "V_M3GNet_per_atom": 15.141156361061789
+ }
+}

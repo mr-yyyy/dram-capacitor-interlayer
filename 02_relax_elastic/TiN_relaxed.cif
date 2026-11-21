@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TiNTiNTiNTiN
+_chemical_formula_sum              "Ti4 N4"
+_cell_length_a       4.248793383400667
+_cell_length_b       4.248793391004053
+_cell_length_c       4.248793396322577
+_cell_angle_alpha    89.99999980029797
+_cell_angle_beta     90.00000021230333
+_cell_angle_gamma    90.00000039928426
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.9999999785176462  0.9999999936380266  1.5612967181689777e-08  1.0000
+  N   N1        1.0  0.5000000091683781  4.60032787448838e-09  0.9999999981461193  1.0000
+  Ti  Ti2       1.0  9.737270030686506e-09  0.49999999916809823  0.5000000005603056  1.0000
+  N   N2        1.0  0.5000000087109969  0.4999999990588357  0.49999999372163684  1.0000
+  Ti  Ti3       1.0  0.5000000111202905  0.9999999908683475  0.5000000044211629  1.0000
+  N   N3        1.0  0.9999999909140632  6.6089597007510744e-09  0.5000000089851571  1.0000
+  Ti  Ti4       1.0  0.5000000063992713  0.500000000042523  0.9999999835994124  1.0000
+  N   N4        1.0  0.9999999863443815  0.5000000080144553  0.9999999951814103  1.0000

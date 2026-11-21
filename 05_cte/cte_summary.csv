@@ -1,0 +1,10 @@
+material,alpha300,alpha_300_900,d_alpha_vs_TiN,E_GPa,nu,sigma_GPa_dT400,QHA_valid,note
+TiN,9.15,10.47,0.0,357,0.249,0.0,True,
+AlN,3.3,5.79,-4.68,273,0.255,-0.69,True,
+HfN,5.09,6.25,-4.23,328,0.271,-0.76,True,
+ZrN,6.24,8.12,-2.35,331,0.255,-0.42,True,
+TaN_cubic,4.09,,,323,0.341,,False,soft mode at expanded volume (metastable rocksalt)
+NbN_cubic,23.87,,,357,0.308,,False,soft mode at expanded volume (metastable rocksalt)
+TiC,4.98,6.46,-4.02,448,0.188,-0.89,True,
+ZrO2_tet,8.73,,,132,0.353,,False,imaginary modes (-2.8 THz)
+ZrO2_mono,10.4,,,174,0.347,,False,"imaginary modes at q~(-0.1,0,0.27), M3GNet artifact"

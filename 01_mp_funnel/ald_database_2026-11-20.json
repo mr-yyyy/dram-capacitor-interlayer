@@ -1,0 +1,5 @@
+{
+ "source": "Atomic Limits ALD process database, https://www.atomiclimits.com/alddatabase/ (DOI 10.6100/alddatabase, CC BY 4.0), api/processes.php, accessed 2026-11-20, 2447 processes total",
+ "filter": "materials whose elements are all in {Al,Ti,Zr,Hf,Nb,Ta,Si,Y,N,C,B,O}, with >=1 metal and >=1 non-metal; x/y/z subscripts ignored",
+ "material_process_counts": {"Al2O3":57,"Al2O3/SiO2":1,"AlBxNy":1,"AlBxOy":1,"AlN":22,"AlOxNy":4,"AlSixOy":14,"AlTaxOy":1,"AlTixOy":5,"AlZrO":1,"BAlxOy":1,"HfAlxCy":1,"HfAlxOy":9,"HfAlxTiyOz":1,"HfNx":8,"HfO2":71,"HfSixOy":18,"HfTaxOy":2,"HfTixOy":3,"HfYxOy":5,"HfZrxOy":14,"Nb2O5":11,"NbAlxOy":1,"NbCx":3,"NbN":5,"NbSixOy":1,"NbTaxOy":2,"NbTixNy":2,"Si3N4":30,"SiC":4,"SiCxNy":2,"SiCxOy":3,"SiO2":40,"SiOxCy":1,"SiOxNy":1,"SiTixOy":5,"SiZrxOy":4,"Ta2O5":21,"TaAlxNyCz":2,"TaCx":1,"TaCxNy":4,"TaNx":25,"TaNxCy":6,"TaOx":1,"TaOxNy":4,"TaSixOy":1,"TaZrxOy":5,"TiAlxCy":2,"TiAlxNy":2,"TiAlxOy":8,"TiCx":1,"TiCxNy":2,"TiHfxOy":1,"TiN":23,"TiNbxOy":1,"TiO2":62,"TiOxNy":2,"TiTaxOy":4,"TiZrxOy":1,"Y2C":1,"Y2O3":22,"YAlxOy":1,"ZrAlxNbyOz":1,"ZrAlxOy":3,"ZrNx":6,"ZrO2":62,"ZrSixOy":5,"ZrTixOy":2,"ZrTixSiyOz":1,"ZrYxOy":5}
+}

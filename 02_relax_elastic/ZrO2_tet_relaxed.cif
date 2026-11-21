@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Zr2O4
+_chemical_formula_sum              "Zr2 O4"
+_cell_length_a       3.6205133649086942
+_cell_length_b       3.6205133928771427
+_cell_length_c       5.2440036390784694
+_cell_angle_alpha    90.00000049528923
+_cell_angle_beta     89.99999961781431
+_cell_angle_gamma    89.9999999903313
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.9999999898972465  0.9999999921300207  0.9999999872836767  1.0000
+  Zr  Zr2       1.0  0.5000000038819347  0.500000001102731  0.5000000209699504  1.0000
+  O   O1        1.0  8.407492475064464e-09  0.5000000060708457  0.29959548599826136  1.0000
+  O   O2        1.0  1.5220963481807122e-09  0.49999998891693226  0.7995954815998805  1.0000
+  O   O3        1.0  0.4999999908523836  1.0368285398016263e-09  0.7004045187895008  1.0000
+  O   O4        1.0  0.5000000165955367  4.8959567552134315e-09  0.20040450466041157  1.0000

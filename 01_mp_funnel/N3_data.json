@@ -1,0 +1,2994 @@
+{
+ "Al10Si2O19": {
+  "oxide_products": [
+   [
+    "mp-4753",
+    "Al2SiO5"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Al2O3": {
+  "oxide_products": [
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Al2Si2O7": {
+  "oxide_products": [
+   [
+    "mp-4753",
+    "Al2SiO5"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Al2Si4O11": {
+  "oxide_products": [
+   [
+    "mp-4753",
+    "Al2SiO5"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Al2SiO5": {
+  "oxide_products": [
+   [
+    "mp-4753",
+    "Al2SiO5"
+   ]
+  ]
+ },
+ "Al8SiO14": {
+  "oxide_products": [
+   [
+    "mp-4753",
+    "Al2SiO5"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "AlN": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "AlO": {
+  "oxide_products": [
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Hf(Nb2B3)4": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Hf3N4": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfAl2O5": {
+  "oxide_products": [
+   [
+    "mp-1143",
+    "Al2O3"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfB2": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ]
+  ]
+ },
+ "HfC": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfN": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfNbB2": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfNbB4": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "HfNbC2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfNbN2": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfO2": {
+  "oxide_products": [
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfSiO4": {
+  "oxide_products": [
+   [
+    "mp-4609",
+    "HfSiO4"
+   ]
+  ]
+ },
+ "HfTa5B4": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfTaB2": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfTaB4": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "HfTaC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfTiB4": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "HfTiC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfTiN2": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "HfTiO4": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfZrB4": {
+  "oxide_products": [
+   [
+    "mp-559617",
+    "HfB2O5"
+   ],
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ]
+  ]
+ },
+ "HfZrC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "HfZrN2": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "HfZrO4": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "Nb10(SiB)3": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Nb10C7": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb12O29": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb2AlC": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-27927",
+    "NbAlO4"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb2B3": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Nb2C": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb2N": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb2N3": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb2O5": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb39C34": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb3Al2C": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-27927",
+    "NbAlO4"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb3Al2N": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-27927",
+    "NbAlO4"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb3AlC2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-27927",
+    "NbAlO4"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb3B2": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb3B4": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Nb3N5": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb4AlC3": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-27927",
+    "NbAlO4"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb4C3": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Nb4N3": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb4N5": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb4O5": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb4SiC3": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Nb5B6": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Nb5N6": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Nb5Si3B": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Nb5Si3N": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Nb5SiB2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Nb6C5": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "NbAlO4": {
+  "oxide_products": [
+   [
+    "mp-27927",
+    "NbAlO4"
+   ]
+  ]
+ },
+ "NbB": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ]
+  ]
+ },
+ "NbB2": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "NbC": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "NbN": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "NbO": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Si18O29": {
+  "oxide_products": [
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Si2N3": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Si2O3": {
+  "oxide_products": [
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Si3N4": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Si8C3": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "SiC": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "SiO2": {
+  "oxide_products": [
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ta10Al6B": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ]
+  ]
+ },
+ "Ta2AlC": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ta2B": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2C": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2N": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2N3": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2Nb3O12": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2O": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2O5": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta2TiO6": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ta3Al2C": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ta3Al4O14": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ta3AlC2": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ta3B2": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta3B4": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Ta3C2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta3N5": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta3TiB4": {
+  "oxide_products": [
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ta4AlC3": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ta4C3": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta4N5": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta4O": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta5Al3C": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ta5B6": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Ta5N6": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta5Si3N": {
+  "oxide_products": [
+   [
+    "mp-546794",
+    "SiO2"
+   ],
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "Ta6O": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaAlO4": {
+  "oxide_products": [
+   [
+    "mp-14333",
+    "TaAlO4"
+   ]
+  ]
+ },
+ "TaB": {
+  "oxide_products": [
+   [
+    "mp-4624",
+    "TaBO4"
+   ]
+  ]
+ },
+ "TaC": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaN": {
+  "oxide_products": [
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaNbC2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaNbO5": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaO": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaO2": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "TaTiB4": {
+  "oxide_products": [
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TaTiC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TaTiO4": {
+  "oxide_products": [
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti(Nb2B3)4": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Ti(SiO3)2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ti10O13": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti11O14": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti11O18": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti13O22": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti15NbO32": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Ti19O30": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti2AlC": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti2AlN": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti2AlO4": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti2C": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ti2N": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti2O": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti2O3": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti2SiC": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ti3AlC": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti3AlC2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti3AlN": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti3AlO6": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti3B4": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "Ti3C2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ti3N2": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti3NbO8": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Ti3O": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti3O2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti3O4": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti3O5": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti3SiC2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ti4AlN3": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti4O3": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti4O5": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti4O7": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti5Al2C3": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti5Nb2O14": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Ti5NbO12": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Ti5O8": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti5O9": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti5Si3C": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ti6O11": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti6Si2B": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Ti7Al2O15": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Ti7O13": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti8C5": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "Ti8N5": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti8O13": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti8O15": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Ti9O17": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TiAl2O5": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "TiAlO3": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "TiB": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "TiB2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "TiC": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ]
+  ]
+ },
+ "TiN": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TiNb2O7": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "TiNb3O6": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "TiNbB2": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "TiNbB4": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "TiNbC2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TiNbN2": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "TiNbO4": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "TiO": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "TiO2": {
+  "oxide_products": [
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Y10Ta4O25": {
+  "oxide_products": [
+   [
+    "mp-11321",
+    "Y3TaO7"
+   ],
+   [
+    "mp-5377",
+    "YTaO4"
+   ]
+  ]
+ },
+ "Y11Ta5O28": {
+  "oxide_products": [
+   [
+    "mp-11321",
+    "Y3TaO7"
+   ],
+   [
+    "mp-5377",
+    "YTaO4"
+   ]
+  ]
+ },
+ "Y2Hf2O7": {
+  "oxide_products": [
+   [
+    "mp-2652",
+    "Y2O3"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "Y2HfO5": {
+  "oxide_products": [
+   [
+    "mp-2652",
+    "Y2O3"
+   ],
+   [
+    "mp-352",
+    "HfO2"
+   ]
+  ]
+ },
+ "Y2O3": {
+  "oxide_products": [
+   [
+    "mp-2652",
+    "Y2O3"
+   ]
+  ]
+ },
+ "Y2Si2O7": {
+  "oxide_products": [
+   [
+    "mp-581644",
+    "Y2Si2O7"
+   ]
+  ]
+ },
+ "Y2SiO5": {
+  "oxide_products": [
+   [
+    "mp-3520",
+    "Y2SiO5"
+   ]
+  ]
+ },
+ "Y2Ti2O7": {
+  "oxide_products": [
+   [
+    "mp-17559",
+    "Y2TiO5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Y2Ti3O9": {
+  "oxide_products": [
+   [
+    "mp-17559",
+    "Y2TiO5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Y2TiO5": {
+  "oxide_products": [
+   [
+    "mp-17559",
+    "Y2TiO5"
+   ]
+  ]
+ },
+ "Y2Zr24O51": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Y2Zr2O7": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Y3Al5O12": {
+  "oxide_products": [
+   [
+    "mp-3050",
+    "Y3Al5O12"
+   ]
+  ]
+ },
+ "Y3AlO6": {
+  "oxide_products": [
+   [
+    "mp-3050",
+    "Y3Al5O12"
+   ],
+   [
+    "mp-2652",
+    "Y2O3"
+   ]
+  ]
+ },
+ "Y3Si3O11": {
+  "oxide_products": [
+   [
+    "mp-581644",
+    "Y2Si2O7"
+   ]
+  ]
+ },
+ "Y3Si6N11": {
+  "oxide_products": [
+   [
+    "mp-1020671",
+    "Y(NO3)3"
+   ],
+   [
+    "mp-1204579",
+    "NO3"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Y3TaO7": {
+  "oxide_products": [
+   [
+    "mp-11321",
+    "Y3TaO7"
+   ]
+  ]
+ },
+ "Y4Al2O9": {
+  "oxide_products": [
+   [
+    "mp-3050",
+    "Y3Al5O12"
+   ],
+   [
+    "mp-2652",
+    "Y2O3"
+   ]
+  ]
+ },
+ "Y4Zr3O12": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ]
+  ]
+ },
+ "Y5(SiN3)3": {
+  "oxide_products": [
+   [
+    "mp-1020671",
+    "Y(NO3)3"
+   ],
+   [
+    "mp-581644",
+    "Y2Si2O7"
+   ],
+   [
+    "mp-546794",
+    "SiO2"
+   ]
+  ]
+ },
+ "Y7Ta3O18": {
+  "oxide_products": [
+   [
+    "mp-11321",
+    "Y3TaO7"
+   ],
+   [
+    "mp-5377",
+    "YTaO4"
+   ]
+  ]
+ },
+ "YAl2N3": {
+  "oxide_products": [
+   [
+    "mp-1020671",
+    "Y(NO3)3"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "YAl3O6": {
+  "oxide_products": [
+   [
+    "mp-3050",
+    "Y3Al5O12"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "YAlO3": {
+  "oxide_products": [
+   [
+    "mp-3050",
+    "Y3Al5O12"
+   ],
+   [
+    "mp-2652",
+    "Y2O3"
+   ]
+  ]
+ },
+ "YNbO4": {
+  "oxide_products": [
+   [
+    "mp-5387",
+    "YNbO4"
+   ]
+  ]
+ },
+ "YTa3O9": {
+  "oxide_products": [
+   [
+    "mp-752515",
+    "YTa3O9"
+   ]
+  ]
+ },
+ "YTa7O19": {
+  "oxide_products": [
+   [
+    "mp-752515",
+    "YTa3O9"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ]
+  ]
+ },
+ "YTaO4": {
+  "oxide_products": [
+   [
+    "mp-5377",
+    "YTaO4"
+   ]
+  ]
+ },
+ "YTiO3": {
+  "oxide_products": [
+   [
+    "mp-17559",
+    "Y2TiO5"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "YZr4O9": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "YZr5O11": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "YZr5O12": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "YZr9O20": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "YZrO3": {
+  "oxide_products": [
+   [
+    "mp-1216160",
+    "Y4Zr3O12"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr10Al6O": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Zr10C9": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr2AlC": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr2AlN": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Zr2N": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr2O": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr3AlN": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Zr3N2": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr3N4": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr3NbC4": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr3O": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr3TiO8": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Zr4O": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr5Al3C": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr5Al3N": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-1143",
+    "Al2O3"
+   ]
+  ]
+ },
+ "Zr5Si3N": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-4820",
+    "ZrSiO4"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "Zr5Ti7O24": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "Zr6Nb2O17": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "Zr6O11": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrB": {
+  "oxide_products": [
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrB2": {
+  "oxide_products": [
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ]
+  ]
+ },
+ "ZrC": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrN": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrNb3C4": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrNbB2": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ]
+  ]
+ },
+ "ZrNbB4": {
+  "oxide_products": [
+   [
+    "mp-8615",
+    "NbBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ]
+  ]
+ },
+ "ZrNbC2": {
+  "oxide_products": [
+   [
+    "mp-581967",
+    "Nb2O5"
+   ],
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrNbN2": {
+  "oxide_products": [
+   [
+    "mp-680356",
+    "ZrN6O17"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-581967",
+    "Nb2O5"
+   ]
+  ]
+ },
+ "ZrO": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrO2": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrSiO": {
+  "oxide_products": [
+   [
+    "mp-4820",
+    "ZrSiO4"
+   ]
+  ]
+ },
+ "ZrSiO4": {
+  "oxide_products": [
+   [
+    "mp-4820",
+    "ZrSiO4"
+   ]
+  ]
+ },
+ "ZrTaB4": {
+  "oxide_products": [
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ],
+   [
+    "mp-4624",
+    "TaBO4"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ]
+  ]
+ },
+ "ZrTaC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-1539317",
+    "Ta2O5"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrTi2O": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "ZrTi2O6": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "ZrTiB4": {
+  "oxide_products": [
+   [
+    "mp-559571",
+    "ZrB2O5"
+   ],
+   [
+    "mp-306",
+    "B2O3"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "ZrTiC2": {
+  "oxide_products": [
+   [
+    "mp-20066",
+    "CO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ]
+  ]
+ },
+ "ZrTiN2": {
+  "oxide_products": [
+   [
+    "mp-30998",
+    "Ti(NO3)4"
+   ],
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ },
+ "ZrTiO4": {
+  "oxide_products": [
+   [
+    "mp-2858",
+    "ZrO2"
+   ],
+   [
+    "mp-554278",
+    "TiO2"
+   ]
+  ]
+ }
+}

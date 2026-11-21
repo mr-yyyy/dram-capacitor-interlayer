@@ -1,0 +1,1 @@
+TiN reference EOT increase = 2.339 nm (A5 Miao 2026 APL 128 022905, Fig.3a: C 3.1 -> 1.0 uF/cm2 at 1 kHz, 700 C anneal; EOT = 3.9 eps0 / C)

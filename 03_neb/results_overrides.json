@@ -1,0 +1,45 @@
+{
+ "TaC": {
+  "Oi": {
+   "barrier_forward_eV": 0.94,
+   "barrier_reverse_eV": 0.94,
+   "converged": true,
+   "E_profile_rel_eV": [
+    0.0,
+    0.054,
+    0.219,
+    0.607,
+    0.94,
+    0.867,
+    0.697,
+    0.554,
+    0.499
+   ],
+   "note": "split->tet void (M, +0.499 eV)->split; A->M converged two-stage FIRE CI-NEB, max force 0.048; band_A_M.xyz"
+  }
+ },
+ "NbC": {
+  "Oi": {
+   "barrier_forward_eV": 1.061,
+   "converged": true,
+   "note": "two-segment A->M->B, M relaxed midpoint dE=0.779 eV; bands band_A_M.xyz, band_M_B.xyz"
+  }
+ },
+ "SiC": {
+  "ON_VN": {
+   "barrier_forward_eV": null,
+   "converged": false,
+   "note": "two-stage FIRE CI-NEB did not converge (2075 steps, band max 7.16 eV) -> not used; material barrier from Oi"
+  }
+ },
+ "SiO2": {
+  "ON_VN": {
+   "barrier_forward_eV": null,
+   "converged": false,
+   "note": "FIRE CI-NEB diverged (2032 steps, band max 11.9 eV), started before divergence fallback was added; not rerun because the I-42d SiO2 representative (B = 21 GPa) does not represent amorphous ALD SiO2"
+  },
+  "Oi": {
+   "flag": "low-confidence: very open I-42d polymorph; Oi barrier 0.068 eV"
+  }
+ }
+}

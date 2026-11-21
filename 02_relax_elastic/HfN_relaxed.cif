@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       HfNHfNHfNHfN
+_chemical_formula_sum              "Hf4 N4"
+_cell_length_a       4.536575121697875
+_cell_length_b       4.536575112125735
+_cell_length_c       4.536575124029489
+_cell_angle_alpha    90.00000003259447
+_cell_angle_beta     90.0000000527415
+_cell_angle_gamma    89.99999996431139
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.9999999924112345  0.9999999962867595  1.1174581660191005e-08  1.0000
+  N   N1        1.0  0.499999996458293  1.2614239100662641e-08  0.999999988733236  1.0000
+  Hf  Hf2       1.0  6.832098396963368e-09  0.5000000116248478  0.5000000077524958  1.0000
+  N   N2        1.0  0.49999999745326085  0.49999999635113573  0.49999999119198507  1.0000
+  Hf  Hf3       1.0  0.5000000067396891  0.9999999995661151  0.5000000081761931  1.0000
+  N   N3        1.0  3.2270717757354015e-09  0.9999999931825894  0.49999999515962573  1.0000
+  Hf  Hf4       1.0  0.4999999950062974  0.5000000014274238  0.9999999942809339  1.0000
+  N   N4        1.0  1.3618139469769178e-09  0.49999998913878735  3.1412988283785083e-09  1.0000

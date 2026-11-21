@@ -1,0 +1,24 @@
+# personal notes / handoff (not part of the public project)
+laptop_handoff/*
+!laptop_handoff/requirements_m3gnet.txt
+!laptop_handoff/check_env.py
+발표준비_완전정리.md
+연구개요.md
+
+# copyrighted papers (list only)
+papers/*
+!papers/00_논문목록.md
+
+# large / regenerable data
+01_mp_funnel/cache/
+06_ysz_md/*/state.npz
+03_neb/_lowest_Oi_*.xyz
+
+# logs and runtime files
+*.log
+06_ysz_md/err_*.txt
+03_neb/resume_*.txt
+__pycache__/
+*.pyc
+.env
+.pmgrc.yaml
