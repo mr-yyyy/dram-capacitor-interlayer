@@ -16,7 +16,7 @@ HERE = os.path.join(ROOT, "04_summary")
 neb = json.load(open(os.path.join(ROOT, "03_neb", "results.json")))
 ov = json.load(open(os.path.join(ROOT, "03_neb", "results_overrides.json")))
 el = json.load(open(os.path.join(ROOT, "02_relax_elastic", "results.json")))
-n3 = pd.read_csv(os.path.join(ROOT, "01_mp_funnel", "N3_table.csv")).set_index("formula")
+n3 = pd.read_csv(os.path.join(ROOT, "01_mp_funnel", "N3_table_v2.csv")).set_index("formula")   # v2 (2026-11-22 audit)
 
 # name in NEB / elastic -> (formula in MP table, class, flag)
 MATS = {
@@ -24,7 +24,7 @@ MATS = {
     "TaN_cubic": ("TaN", "conductive nitride", "rocksalt (metastable, E_hull 0.33)"),
     "NbN_cubic": ("NbN", "conductive nitride", "rocksalt (metastable, E_hull 0.20)"),
     "HfN": ("HfN", "conductive nitride", ""), "ZrN": ("ZrN", "conductive nitride", ""),
-    "TiC": ("TiC", "conductive carbide", ""), "TaC": ("TaC", "conductive carbide", ""),
+    "TiC": ("TiC", "conductive carbide", "oxide = Ti oxide as on TiN (A5 degradation); lit. k 80 not credible"), "TaC": ("TaC", "conductive carbide", ""),
     "NbC": ("NbC", "conductive carbide", ""),
     "Si3N4": ("Si3N4", "insulating nitride/carbide", "ALD film amorphous; c-channel path"),
     "SiC": ("SiC", "insulating nitride/carbide", ""),
@@ -54,8 +54,8 @@ for name, (formula, cls, flag) in MATS.items():
     t = n3.loc[formula] if formula in n3.index else None
     rows.append(dict(material=formula, cls=cls,
                      Ea_Oi=bO, Ea_OXVX=bV, Ea=best[0], mechanism=best[1],
-                     EOT_penalty_nm=None if t is None else t["EOT_penalty_used"],
-                     EOT_is_bound=None if t is None else bool(pd.isna(t["EOT_penalty_per_nm"])),
+                     EOT_penalty_nm=None if t is None else t["EOT_penalty_v2"],
+                     EOT_is_bound=None if t is None else bool(t["EOT_is_bound"]),
                      conductive=None if t is None else bool(t["conductive"]),
                      oxide=None if t is None else t["oxide_products"],
                      B=e.get("B_VRH"), G=e.get("G_VRH"), E=e.get("E"), BG=e.get("Pugh_B_over_G"),
@@ -84,12 +84,12 @@ for i, r in d.iterrows():
 tin = d[d.material == "TiN"].iloc[0]
 ax.axvline(tin.Ea, color="black", ls="--", lw=0.8)
 ax.set_xlabel("O migration barrier $E_m$ (eV)  [M3GNet CI-NEB, lower of O$_i$ / O$_X$+V$_X$]")
-ax.set_ylabel("EOT penalty per 1 nm oxidised (nm)")
+ax.set_ylabel("EOT penalty, 1 nm interlayer fully oxidised (nm)")
 ax.set_title("Selection map: right = slower O diffusion, down = less capacitance loss", fontsize=9)
 ax.set_xlim(-0.05, 3.05)
 fig.text(0.01, 0.01, "filled: conductive (navy) / insulating (orange) / reference (black);  open: low-confidence structure;  "
          "(k?) + arrow: oxide k not in MP, plotted at k = 3.9 upper bound\n"
-         "EOT penalty uses MP DFPT k of the crystalline oxide;  dashed line: TiN barrier (reference)",
+         "EOT penalty: literature thin-film k x Pilling-Bedworth expansion; TiN = measured EOT increase 2.34 nm (Miao 2026);  dashed line: TiN barrier",
          ha="left", va="bottom", fontsize=6.2)
 fig.tight_layout(rect=(0, 0.06, 1, 1))
 fig.savefig(os.path.join(HERE, "selection_map.png"))

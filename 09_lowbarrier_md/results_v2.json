@@ -1,0 +1,267 @@
+{
+ "Al2O3": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "site_jumps": 31,
+    "return_jumps": 10,
+    "net_jumps": 21,
+    "anions_that_jumped": 11,
+    "net_jump_rate_per_ps": 0.4204204204204204,
+    "summed_anion_D_A2_per_ps": 0.12220509397910279,
+    "cation_disp_mean_A": 0.06642544230078472,
+    "cation_disp_max_A": 0.395298251661768,
+    "anion_disp_mean_A": 0.2224099207109391,
+    "anions_disp_gt1A": 10,
+    "n_anions": 163
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "site_jumps": 27,
+    "return_jumps": 6,
+    "net_jumps": 21,
+    "anions_that_jumped": 13,
+    "net_jump_rate_per_ps": 0.4204204204204204,
+    "summed_anion_D_A2_per_ps": 0.3403985425077532,
+    "cation_disp_mean_A": 0.06609252834878485,
+    "cation_disp_max_A": 0.3015756963841077,
+    "anion_disp_mean_A": 0.27191585783291866,
+    "anions_disp_gt1A": 11,
+    "n_anions": 163
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "site_jumps": 35,
+    "return_jumps": 6,
+    "net_jumps": 29,
+    "anions_that_jumped": 16,
+    "net_jump_rate_per_ps": 0.5805805805805806,
+    "summed_anion_D_A2_per_ps": 0.43147005766249286,
+    "cation_disp_mean_A": 0.05438787662951423,
+    "cation_disp_max_A": 0.237623118052854,
+    "anion_disp_mean_A": 0.310115032810529,
+    "anions_disp_gt1A": 15,
+    "n_anions": 163
+   }
+  },
+  "E_m_NEB_eV": 0.31982421875,
+  "host_intact": true,
+  "E_a_MD_jumps_eV": 0.0971207703735312,
+  "E_a_MD_jumps_err_eV": 0.08642001680761154
+ },
+ "HfO2": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "site_jumps": 37,
+    "return_jumps": 19,
+    "net_jumps": 18,
+    "anions_that_jumped": 10,
+    "net_jump_rate_per_ps": 0.36036036036036034,
+    "summed_anion_D_A2_per_ps": 0.25384674934240603,
+    "cation_disp_mean_A": 0.0685960823656886,
+    "cation_disp_max_A": 0.34356336966046713,
+    "anion_disp_mean_A": 0.21216977715744967,
+    "anions_disp_gt1A": 7,
+    "n_anions": 145
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "site_jumps": 29,
+    "return_jumps": 10,
+    "net_jumps": 19,
+    "anions_that_jumped": 11,
+    "net_jump_rate_per_ps": 0.38038038038038036,
+    "summed_anion_D_A2_per_ps": 0.4082946972868728,
+    "cation_disp_mean_A": 0.07800145918925885,
+    "cation_disp_max_A": 0.2992248422322121,
+    "anion_disp_mean_A": 0.2906947888052125,
+    "anions_disp_gt1A": 10,
+    "n_anions": 145
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "site_jumps": 46,
+    "return_jumps": 15,
+    "net_jumps": 31,
+    "anions_that_jumped": 14,
+    "net_jump_rate_per_ps": 0.6206206206206206,
+    "summed_anion_D_A2_per_ps": 0.3785829851658293,
+    "cation_disp_mean_A": 0.07679607082334935,
+    "cation_disp_max_A": 0.3196424601036901,
+    "anion_disp_mean_A": 0.2860048363374895,
+    "anions_disp_gt1A": 11,
+    "n_anions": 145
+   }
+  },
+  "E_m_NEB_eV": 0.271728515625,
+  "host_intact": true,
+  "E_a_MD_jumps_eV": 0.16864855408447565,
+  "E_a_MD_jumps_err_eV": 0.08924579270997231
+ },
+ "Nb2O5": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "site_jumps": 13,
+    "return_jumps": 6,
+    "net_jumps": 7,
+    "anions_that_jumped": 5,
+    "net_jump_rate_per_ps": 0.14014014014014015,
+    "summed_anion_D_A2_per_ps": 0.20998920187293435,
+    "cation_disp_mean_A": 0.08781538387275409,
+    "cation_disp_max_A": 1.020947484520321,
+    "anion_disp_mean_A": 0.14809877941490318,
+    "anions_disp_gt1A": 5,
+    "n_anions": 211
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "site_jumps": 14,
+    "return_jumps": 8,
+    "net_jumps": 6,
+    "anions_that_jumped": 3,
+    "net_jump_rate_per_ps": 0.12012012012012012,
+    "summed_anion_D_A2_per_ps": 0.12852363389269902,
+    "cation_disp_mean_A": 0.1264223536876143,
+    "cation_disp_max_A": 1.4004095345490655,
+    "anion_disp_mean_A": 0.14038587540539002,
+    "anions_disp_gt1A": 3,
+    "n_anions": 211
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "site_jumps": 15,
+    "return_jumps": 8,
+    "net_jumps": 7,
+    "anions_that_jumped": 5,
+    "net_jump_rate_per_ps": 0.14014014014014015,
+    "summed_anion_D_A2_per_ps": 0.13603713161011144,
+    "cation_disp_mean_A": 0.1064584198810112,
+    "cation_disp_max_A": 1.5955160307667977,
+    "anion_disp_mean_A": 0.1759256717757246,
+    "anions_disp_gt1A": 5,
+    "n_anions": 211
+   }
+  },
+  "E_m_NEB_eV": 0.466064453125,
+  "host_intact": false,
+  "E_a_MD_jumps_eV": null,
+  "reason": "host not intact (cation moved > 1.2 A or anion sublattice mean displacement > 0.4 A)"
+ },
+ "Si3N4": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "site_jumps": 2,
+    "return_jumps": 1,
+    "net_jumps": 1,
+    "anions_that_jumped": 1,
+    "net_jump_rate_per_ps": 0.02002002002002002,
+    "summed_anion_D_A2_per_ps": 0.005064313705216677,
+    "cation_disp_mean_A": 0.04068975435444715,
+    "cation_disp_max_A": 0.6262934575611059,
+    "anion_disp_mean_A": 0.0400206891718787,
+    "anions_disp_gt1A": 1,
+    "n_anions": 161
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "site_jumps": 0,
+    "return_jumps": 0,
+    "net_jumps": 0,
+    "anions_that_jumped": 0,
+    "net_jump_rate_per_ps": 0.0,
+    "summed_anion_D_A2_per_ps": 0.0001797754713490792,
+    "cation_disp_mean_A": 0.04234965384968345,
+    "cation_disp_max_A": 0.8285711263965974,
+    "anion_disp_mean_A": 0.03473297523932889,
+    "anions_disp_gt1A": 0,
+    "n_anions": 161
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "site_jumps": 20,
+    "return_jumps": 3,
+    "net_jumps": 17,
+    "anions_that_jumped": 1,
+    "net_jump_rate_per_ps": 0.34034034034034033,
+    "summed_anion_D_A2_per_ps": 0.06048767269363887,
+    "cation_disp_mean_A": 0.06797624562416868,
+    "cation_disp_max_A": 1.0115181016938628,
+    "anion_disp_mean_A": 0.09404819825673903,
+    "anions_disp_gt1A": 1,
+    "n_anions": 161
+   }
+  },
+  "E_m_NEB_eV": 0.43603515625,
+  "host_intact": true,
+  "E_a_MD_jumps_eV": null,
+  "reason": "fewer than 10 net jumps at some T: 1000 K 1, 1200 K 0, 1400 K 17"
+ },
+ "SiO2": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "site_jumps": 33,
+    "return_jumps": 17,
+    "net_jumps": 16,
+    "anions_that_jumped": 12,
+    "net_jump_rate_per_ps": 0.3203203203203203,
+    "summed_anion_D_A2_per_ps": 0.2745570162115842,
+    "cation_disp_mean_A": 0.214579549773491,
+    "cation_disp_max_A": 0.38620799851625515,
+    "anion_disp_mean_A": 0.5058713717193198,
+    "anions_disp_gt1A": 9,
+    "n_anions": 145
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "site_jumps": 26,
+    "return_jumps": 4,
+    "net_jumps": 22,
+    "anions_that_jumped": 15,
+    "net_jump_rate_per_ps": 0.4404404404404404,
+    "summed_anion_D_A2_per_ps": 0.2355617885170778,
+    "cation_disp_mean_A": 0.2093414297711568,
+    "cation_disp_max_A": 0.5263714777864142,
+    "anion_disp_mean_A": 0.5454657777434888,
+    "anions_disp_gt1A": 16,
+    "n_anions": 145
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "site_jumps": 28,
+    "return_jumps": 2,
+    "net_jumps": 26,
+    "anions_that_jumped": 16,
+    "net_jump_rate_per_ps": 0.5205205205205204,
+    "summed_anion_D_A2_per_ps": 0.6341123438131875,
+    "cation_disp_mean_A": 0.2234010424380163,
+    "cation_disp_max_A": 0.3807094493031414,
+    "anion_disp_mean_A": 0.705031706422605,
+    "anions_disp_gt1A": 16,
+    "n_anions": 145
+   }
+  },
+  "E_m_NEB_eV": 0.0684814453125,
+  "host_intact": false,
+  "E_a_MD_jumps_eV": null,
+  "reason": "host not intact (cation moved > 1.2 A or anion sublattice mean displacement > 0.4 A)"
+ }
+}

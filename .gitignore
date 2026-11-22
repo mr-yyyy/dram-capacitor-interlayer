@@ -22,3 +22,8 @@ __pycache__/
 *.pyc
 .env
 .pmgrc.yaml
+09_lowbarrier_md/*/state.npz
+09_lowbarrier_md/err_*.txt
+
+# presentation draft (not part of the public code)
+07_ppt/

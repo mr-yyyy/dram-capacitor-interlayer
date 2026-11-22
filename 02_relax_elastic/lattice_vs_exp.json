@@ -1,0 +1,27 @@
+{
+ "TiN": {
+  "a_M3GNet": 4.2488,
+  "a_exp": 4.241,
+  "err_pct": 0.18
+ },
+ "ZrN": {
+  "a_M3GNet": 4.5966,
+  "a_exp": 4.578,
+  "err_pct": 0.41
+ },
+ "HfN": {
+  "a_M3GNet": 4.5366,
+  "a_exp": 4.525,
+  "err_pct": 0.26
+ },
+ "NbN_cubic": {
+  "a_M3GNet": 4.4578,
+  "a_exp": 4.389,
+  "err_pct": 1.57
+ },
+ "TaN_cubic": {
+  "a_M3GNet": 4.426,
+  "a_exp": 4.358,
+  "err_pct": 1.56
+ }
+}

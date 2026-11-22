@@ -10,22 +10,24 @@ TiOₓNᵧ 계면층이 생겨 EOT가 늘고(C_s 감소) 누설이 늘어난다.
 - 모든 결론은 **같은 조건에서의 상대 순위**이다.
 
 ## 결과 요약
-| 후보 | 성질 | O 이동 장벽 E_m (eV) | EOT penalty (nm, 산화층 1 nm당) | 비고 |
+| 후보 | 성질 | O 이동 장벽 E_m (eV) | EOT penalty (nm, 1 nm 삽입층 전부 산화) | 비고 |
 |---|---|---|---|---|
-| TiN (기준) | 전도성 | 1.00 | 0.110 | |
-| AlN (기준, 문헌 선례) | 절연성 | 1.48 | 0.849 | 자기 EOT 0.45 포함 |
-| **HfN** | 전도성 | **2.11** | 0.208 | |
-| **ZrN** | 전도성 | **2.04** | 0.183 | 산화물 = ZrO₂, TiN과 열응력 최소 |
-| **TaN** (rocksalt) | 전도성 | 1.58 | **0.075** | 준안정상 |
-| **NbN** (rocksalt) | 전도성 | 1.62 | Nb₂O₅ k 미확보 | 준안정상 |
-| **TiC** | 전도성 | 1.25 | 0.110 | |
+| TiN (기준) | 전도성 | 1.00 | 2.34 (실측, Miao 2026) | |
+| AlN (기준, 문헌 선례) | 절연성 | 1.48 | 0.45 | max(자기 EOT, 산화물 EOT) |
+| **HfN** | 전도성 | **2.11** | 0.23 | |
+| **ZrN** | 전도성 | **2.04** | 0.23 | 산화물 = ZrO₂, TiN과 열응력 최소 |
+| **TaN** (rocksalt) | 전도성 | 1.58 | 0.38 | 준안정상 |
+| **NbN** (rocksalt) | 전도성 | 1.62 | 0.22 | 준안정상 |
+| **TiC** | 전도성 | 1.25 | 0.09* | *TiN과 같은 Ti 산화물 → 신뢰도 낮음 |
+
+EOT penalty = (전도성) PBR × 3.9 / k_oxide, (절연성) max(3.9/k_self, PBR × 3.9/k_oxide). k는 문헌 박막 값(Robertson 2004; Nb₂O₅ 41), PBR은 Pilling–Bedworth 부피비. 2026-11-22 점검에서 수정한 내용은 `01_mp_funnel/조건변경이력.md` 참고.
 
 전체 18종 표: [`04_summary/summary_table.csv`](04_summary/summary_table.csv) · 선정 지도: [`04_summary/selection_map.png`](04_summary/selection_map.png) · 그림: [`04_summary/figures/`](04_summary/figures)
 
 ## 계산 단계
 | 폴더 | 단계 | 내용 |
 |---|---|---|
-| `01_mp_funnel/` | ① MP 깔때기 | N0 449 조성 → N1 297 (E_hull<0.05 eV/atom 또는 ICSD) → N2 223 (`InterfacialReactivity`, TiN·ZrO₂ > −0.1 eV/atom) → N3 223 (EOT penalty ≤ TiN 실측 2.34 nm) → N4 ALD DB 130 → 2성분 대표 17종. thermo type `GGA_GGA+U` 통일 |
+| `01_mp_funnel/` | ① MP 깔때기 | N0 449 조성 → N1 297 (E_hull<0.05 eV/atom 또는 ICSD) → N2 223 (`InterfacialReactivity`, TiN·ZrO₂ > −0.1 eV/atom) → N3 215 (EOT penalty ≤ TiN 실측 2.34 nm) → N4 ALD DB 130 → 2성분 대표 17종. thermo type `GGA_GGA+U` 통일 |
 | `02_relax_elastic/` | ② 이완·탄성 | FIRE + FrechetCellFilter, ±0.5/1% strain → C_ij → VRH B, G, E, B/G |
 | `03_neb/` | ③ NEB (주 지표) | 216–321원자, O_i(최저 자리 탐색 + 대칭 동등 자리) / O_X+V_X, 7 images, 2단계 CI-NEB, 발산 시 중간점 2구간 |
 | `05_cte/` | ⑤ CTE | phonopy QHA, 부피 7개, Vinet EOS (상대 비교 전용) |
@@ -61,5 +63,7 @@ python 04_summary/summary.py && python 04_summary/figures.py
 2. 1 nm 계면을 벌크 결정으로 근사했다. 결정립계 확산, 산화물 scale 안 확산(Deal–Grove)은 다루지 않았다.
 3. 결함은 중성만 다룬다. 메커니즘마다 경로 하나만 계산했다.
 4. 산화물 ALD 막은 비정질이지만 결정상으로 계산했다. M3GNet은 HfO₂의 O–O dimer를 재현하지 못했다.
-5. EOT penalty의 k는 MP DFPT(결정상) 값이다. Nb₂O₅·Y₂O₃는 MP에 k가 없어 k = 3.9 하한을 썼다.
+5. EOT penalty의 k는 문헌 박막 값(일부 상은 MP DFPT, 없으면 k = 3.9 상한)이고, 산화물 두께는 결정 부피비(PBR)로 근사했다.
 6. CTE: rocksalt TaN·NbN은 팽창 시 연성 모드, ZrO₂(정방·단사)는 M3GNet에서 허수 모드가 나와 QHA를 적용하지 못했다.
+7. YSZ 검증에서 M3GNet의 O 확산 E_a는 0.42 ± 0.06 eV(Langevin 0.01/fs), 0.45 ± 0.17 eV(0.001/fs)로 실험 0.85–1.1 eV(Vendrell et al., J. Electrochem. Soc. 2018)보다 낮다. thermostat를 바꿔도 같으므로 uMLIP의 PES softening(Deng et al., npj Comput. Mater. 11, 9 (2025)) 방향과 일치 → 장벽은 절대값이 아니라 순위로만 쓴다. 그림: `04_summary/figures/fig6_ysz_arrhenius.png`.
+8. ⑦ 저장벽 MD(1 seed × 50 ps × 1000/1200/1400 K)는 NEB가 낮다고 한 산화물에서 O_i가 실제로 빨리 움직이는지 확인하는 정성 검증이다. Al₂O₃·HfO₂는 MD E_a(0.10 ± 0.09, 0.17 ± 0.09 eV)가 NEB(0.32, 0.27 eV) 이하라서 "산소 차단이 약하다"는 결론이 유지된다. Si₃N₄는 1000–1200 K에서 O_i가 거의 움직이지 않았고, Nb₂O₅·SiO₂는 host 구조가 변해 비교하지 않았다. 분석: `09_lowbarrier_md/analyse_defect_v2.py`.

@@ -5,7 +5,7 @@ D      = slope / 6, linear fit of MSD over lag 10-50 ps (production run of 100 p
 E_a    = -k_B * d ln D / d(1/T), fit over the seed-averaged D at 800/1000/1200 K
 Figures follow the project style: one marker per temperature, dashed lines between computed points.
 """
-import os, glob, json
+import os, sys, glob, json
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -14,6 +14,9 @@ import matplotlib.pyplot as plt
 HERE = os.path.dirname(os.path.abspath(__file__))
 KB = 8.617333e-5
 LAG_FIT = (10.0, 50.0)
+V2 = len(sys.argv) > 1 and sys.argv[1] == "v2"      # v2 = weak-coupling re-run (md_v2.py)
+SUF = "_v2" if V2 else ""
+NEED = 100_000 if V2 else 110_000
 
 
 def msd(O, dt_ps, origin_every_ps=1.0):
@@ -29,11 +32,11 @@ def msd(O, dt_ps, origin_every_ps=1.0):
 res = {}
 fig, ax = plt.subplots(1, 2, figsize=(9, 3.6), dpi=200)
 mk = {800: "o", 1000: "s", 1200: "^"}
-for d in sorted(glob.glob(os.path.join(HERE, "T*_s*"))):
+for d in sorted(x for x in glob.glob(os.path.join(HERE, "T*_s*" + SUF)) if x.endswith("_v2") == V2):
     s = np.load(os.path.join(d, "state.npz"))
-    if int(s["step"]) < 110_000:
+    if int(s["step"]) < NEED:
         print("incomplete:", os.path.basename(d), int(s["step"])); continue
-    T = int(os.path.basename(d).split("_")[0][1:]); seed = int(os.path.basename(d).split("s")[-1])
+    T = int(os.path.basename(d).split("_")[0][1:]); seed = int(os.path.basename(d).split("_")[1][1:])
     O = s["Ohist"].astype(float); t = s["thist"]; dt = float(t[1] - t[0])
     lag, m = msd(O, dt)
     w = (lag >= LAG_FIT[0]) & (lag <= LAG_FIT[1])
@@ -55,6 +58,6 @@ if len(Ts) >= 2:
     ax[1].set_title(f"8YSZ, M3GNet MD: E$_a$ = {Ea:.2f} eV (R$^2$ = {r2:.3f})", fontsize=8)
     out = {"T_K": Ts.tolist(), "D_cm2s_mean": Dm.tolist(), "D_all": {int(k): v for k, v in res.items()},
            "Ea_eV": Ea, "R2": r2, "fit_lag_ps": LAG_FIT}
-    json.dump(out, open(os.path.join(HERE, "arrhenius.json"), "w"), indent=1)
+    json.dump(out, open(os.path.join(HERE, f"arrhenius{SUF}.json"), "w"), indent=1)
     print(f"E_a = {Ea:.3f} eV, R2 = {r2:.4f}")
-fig.tight_layout(); fig.savefig(os.path.join(HERE, "ysz_msd_arrhenius.png"))
+fig.tight_layout(); fig.savefig(os.path.join(HERE, f"ysz_msd_arrhenius{SUF}.png"))

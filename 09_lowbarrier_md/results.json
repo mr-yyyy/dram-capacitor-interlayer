@@ -1,0 +1,172 @@
+{
+ "Al2O3": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "anion_hops": 111,
+    "cation_hops": 0,
+    "atoms_that_hopped": 22,
+    "Gamma_per_ps": 2.222222222222222,
+    "collective_D_A2_per_ps": 0.12220509397910279
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "anion_hops": 108,
+    "cation_hops": 0,
+    "atoms_that_hopped": 26,
+    "Gamma_per_ps": 2.162162162162162,
+    "collective_D_A2_per_ps": 0.3403985425077532
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "anion_hops": 153,
+    "cation_hops": 2,
+    "atoms_that_hopped": 30,
+    "Gamma_per_ps": 3.063063063063063,
+    "collective_D_A2_per_ps": 0.43147005766249286
+   }
+  },
+  "E_m_NEB_eV": 0.31982421875,
+  "E_a_MD_hops_eV": 0.08966240049792627,
+  "E_a_MD_eV": 0.39005690154138983
+ },
+ "HfO2": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "anion_hops": 97,
+    "cation_hops": 0,
+    "atoms_that_hopped": 13,
+    "Gamma_per_ps": 1.941941941941942,
+    "collective_D_A2_per_ps": 0.25384674934240603
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "anion_hops": 111,
+    "cation_hops": 0,
+    "atoms_that_hopped": 15,
+    "Gamma_per_ps": 2.222222222222222,
+    "collective_D_A2_per_ps": 0.4082946972868728
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "anion_hops": 151,
+    "cation_hops": 0,
+    "atoms_that_hopped": 21,
+    "Gamma_per_ps": 3.023023023023023,
+    "collective_D_A2_per_ps": 0.3785829851658293
+   }
+  },
+  "E_m_NEB_eV": 0.271728515625,
+  "E_a_MD_hops_eV": 0.1293860845874278,
+  "E_a_MD_eV": 0.12859225765024637
+ },
+ "Nb2O5": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "anion_hops": 6,
+    "cation_hops": 2,
+    "atoms_that_hopped": 5,
+    "Gamma_per_ps": 0.12012012012012012,
+    "collective_D_A2_per_ps": 0.20998920187293435
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "anion_hops": 3,
+    "cation_hops": 4,
+    "atoms_that_hopped": 3,
+    "Gamma_per_ps": 0.06006006006006006,
+    "collective_D_A2_per_ps": 0.12852363389269902
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "anion_hops": 16,
+    "cation_hops": 1,
+    "atoms_that_hopped": 5,
+    "Gamma_per_ps": 0.3203203203203203,
+    "collective_D_A2_per_ps": 0.13603713161011144
+   }
+  },
+  "E_m_NEB_eV": 0.466064453125,
+  "E_a_MD_hops_eV": 0.25381118020494725,
+  "E_a_MD_eV": -0.13882871195185775
+ },
+ "Si3N4": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "anion_hops": 12,
+    "cation_hops": 32,
+    "atoms_that_hopped": 2,
+    "Gamma_per_ps": 0.24024024024024024,
+    "collective_D_A2_per_ps": 0.005064313705216677
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "anion_hops": 6,
+    "cation_hops": 52,
+    "atoms_that_hopped": 1,
+    "Gamma_per_ps": 0.12012012012012012,
+    "collective_D_A2_per_ps": 0.0001797754713490792
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "anion_hops": 20,
+    "cation_hops": 58,
+    "atoms_that_hopped": 2,
+    "Gamma_per_ps": 0.40040040040040037,
+    "collective_D_A2_per_ps": 0.06048767269363887
+   }
+  },
+  "E_m_NEB_eV": 0.43603515625,
+  "E_a_MD_hops_eV": 0.12115856836663526,
+  "E_a_MD_eV": 0.5891660627610203
+ },
+ "SiO2": {
+  "by_T": {
+   "1000": {
+    "T": 1000,
+    "t_prod_ps": 49.95,
+    "anion_hops": 1319,
+    "cation_hops": 1,
+    "atoms_that_hopped": 122,
+    "Gamma_per_ps": 26.406406406406404,
+    "collective_D_A2_per_ps": 0.2745570162115842
+   },
+   "1200": {
+    "T": 1200,
+    "t_prod_ps": 49.95,
+    "anion_hops": 1629,
+    "cation_hops": 5,
+    "atoms_that_hopped": 124,
+    "Gamma_per_ps": 32.61261261261261,
+    "collective_D_A2_per_ps": 0.2355617885170778
+   },
+   "1400": {
+    "T": 1400,
+    "t_prod_ps": 49.95,
+    "anion_hops": 1872,
+    "cation_hops": 6,
+    "atoms_that_hopped": 133,
+    "Gamma_per_ps": 37.47747747747748,
+    "collective_D_A2_per_ps": 0.6341123438131875
+   }
+  },
+  "E_m_NEB_eV": 0.0684814453125,
+  "E_a_MD_hops_eV": 0.1058299758569684,
+  "E_a_MD_eV": 0.2311652443132126
+ }
+}

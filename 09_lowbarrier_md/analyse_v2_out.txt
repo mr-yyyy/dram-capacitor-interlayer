@@ -1,0 +1,20 @@
+Al2O3 1000 K: site jumps 31, returns 10, net 21 (11 anions) | cation disp mean 0.07 max 0.40 A | anion disp mean 0.22 A, >1 A: 10/163
+Al2O3 1200 K: site jumps 27, returns 6, net 21 (13 anions) | cation disp mean 0.07 max 0.30 A | anion disp mean 0.27 A, >1 A: 11/163
+Al2O3 1400 K: site jumps 35, returns 6, net 29 (16 anions) | cation disp mean 0.05 max 0.24 A | anion disp mean 0.31 A, >1 A: 15/163
+HfO2 1000 K: site jumps 37, returns 19, net 18 (10 anions) | cation disp mean 0.07 max 0.34 A | anion disp mean 0.21 A, >1 A: 7/145
+HfO2 1200 K: site jumps 29, returns 10, net 19 (11 anions) | cation disp mean 0.08 max 0.30 A | anion disp mean 0.29 A, >1 A: 10/145
+HfO2 1400 K: site jumps 46, returns 15, net 31 (14 anions) | cation disp mean 0.08 max 0.32 A | anion disp mean 0.29 A, >1 A: 11/145
+Nb2O5 1000 K: site jumps 13, returns 6, net 7 (5 anions) | cation disp mean 0.09 max 1.02 A | anion disp mean 0.15 A, >1 A: 5/211
+Nb2O5 1200 K: site jumps 14, returns 8, net 6 (3 anions) | cation disp mean 0.13 max 1.40 A | anion disp mean 0.14 A, >1 A: 3/211
+Nb2O5 1400 K: site jumps 15, returns 8, net 7 (5 anions) | cation disp mean 0.11 max 1.60 A | anion disp mean 0.18 A, >1 A: 5/211
+Si3N4 1000 K: site jumps 2, returns 1, net 1 (1 anions) | cation disp mean 0.04 max 0.63 A | anion disp mean 0.04 A, >1 A: 1/161
+Si3N4 1200 K: site jumps 0, returns 0, net 0 (0 anions) | cation disp mean 0.04 max 0.83 A | anion disp mean 0.03 A, >1 A: 0/161
+Si3N4 1400 K: site jumps 20, returns 3, net 17 (1 anions) | cation disp mean 0.07 max 1.01 A | anion disp mean 0.09 A, >1 A: 1/161
+SiO2 1000 K: site jumps 33, returns 17, net 16 (12 anions) | cation disp mean 0.21 max 0.39 A | anion disp mean 0.51 A, >1 A: 9/145
+SiO2 1200 K: site jumps 26, returns 4, net 22 (15 anions) | cation disp mean 0.21 max 0.53 A | anion disp mean 0.55 A, >1 A: 16/145
+SiO2 1400 K: site jumps 28, returns 2, net 26 (16 anions) | cation disp mean 0.22 max 0.38 A | anion disp mean 0.71 A, >1 A: 16/145
+Al2O3: E_a(MD, site jumps) 0.097 ¡¾ 0.086 | E_m(NEB) 0.320 eV | host intact True
+HfO2: E_a(MD, site jumps) 0.169 ¡¾ 0.089 | E_m(NEB) 0.272 eV | host intact True
+Nb2O5: E_a(MD, site jumps) n/a (host not intact (cation moved > 1.2 A or anion sublattice mean displacement > 0.4 A)) | E_m(NEB) 0.466 eV | host intact False
+Si3N4: E_a(MD, site jumps) n/a (fewer than 10 net jumps at some T: 1000 K 1, 1200 K 0, 1400 K 17) | E_m(NEB) 0.436 eV | host intact True
+SiO2: E_a(MD, site jumps) n/a (host not intact (cation moved > 1.2 A or anion sublattice mean displacement > 0.4 A)) | E_m(NEB) 0.068 eV | host intact False

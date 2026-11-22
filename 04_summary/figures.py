@@ -20,7 +20,7 @@ lab = lambda n: LABEL.get(n, n.replace("2", "$_2$").replace("3", "$_3$").replace
 
 # 1) funnel ---------------------------------------------------------------
 steps = [("N0  all compounds\n(1-2 metals + N/C/B/O)", 449), ("N1  E$_{hull}$<0.05 or ICSD", 297),
-         ("N2  no reaction with\nTiN / ZrO$_2$", 223), ("N3  EOT penalty\n≤ TiN (2.34 nm)", 223),
+         ("N2  no reaction with\nTiN / ZrO$_2$", 223), ("N3  EOT penalty\n≤ TiN (2.34 nm)", 215),
          ("N4a ALD process\nreported", 130), ("N4b binary,\ndeposited phase", 17), ("Final candidates", 5)]
 fig, ax = plt.subplots(figsize=(6.2, 3.4), dpi=400)
 y = np.arange(len(steps))[::-1]
@@ -81,4 +81,45 @@ ax.set_xlabel("temperature (K)"); ax.set_ylabel(r"linear CTE $\alpha$ (10$^{-6}$
 ax.legend(fontsize=7, frameon=False)
 ax.set_title("QHA (phonopy), relative comparison only;\nTaN, NbN, ZrO$_2$: QHA not valid (soft / imaginary modes)", fontsize=7)
 fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig4_cte.png")); plt.close(fig)
+# 5) selection map, slide version (larger fonts, legend explained on the slide) -----------
+d = pd.read_csv(os.path.join(ROOT, "04_summary", "summary_table.csv")).dropna(subset=["Ea", "EOT_penalty_nm"])
+fig, ax = plt.subplots(figsize=(5.2, 4.6), dpi=400)
+mks = ["o", "s", "^", "v", "D", "P", "X", "<", ">", "h", "p", "*", "d", "H", "8", "o", "s", "^"]
+OFF = {"TaN": (6, 4), "TaC": (-26, 6), "Ta2O5": (6, 4), "TiC": (6, -11), "TiN": (6, 4), "TiO2": (6, -4),
+       "ZrN": (-14, 9), "HfN": (7, -3), "NbN": (6, -11), "NbC": (8, 2), "Y2O3": (-14, -16), "Nb2O5": (6, -12),
+       "HfO2": (5, 2), "Al2O3": (5, 2), "AlN": (5, 3), "Si3N4": (5, 2), "SiC": (5, 2), "SiO2": (5, 2)}
+for i, r in d.reset_index(drop=True).iterrows():
+    ref = r.cls.startswith("reference")
+    col = "black" if ref else (NAVY if r.conductive else ORANGE)
+    face = col if not isinstance(r.flag, str) or not r.flag else "white"
+    ax.scatter([r.Ea], [r.EOT_penalty_nm], marker=mks[i % len(mks)], s=55, color=face, edgecolors=col, linewidths=1.2, zorder=3)
+    if r.EOT_is_bound:
+        ax.annotate("", xy=(r.Ea, r.EOT_penalty_nm - 0.25), xytext=(r.Ea, r.EOT_penalty_nm), arrowprops=dict(arrowstyle="->", color=col, lw=0.8))
+    ax.annotate(lab(r.material) + (" (k?)" if r.EOT_is_bound else ""), (r.Ea, r.EOT_penalty_nm),
+                xytext=OFF.get(r.material, (5, 3)), textcoords="offset points", fontsize=8,
+                fontweight="bold" if r.material in ("HfN", "ZrN") else "normal")
+ax.axvline(d[d.material == "TiN"].Ea.iloc[0], color="black", ls="--", lw=0.8)
+ax.set_xlabel("O migration barrier $E_m$ (eV)"); ax.set_ylabel("EOT penalty (nm, 1 nm interlayer oxidised)")
+ax.set_xlim(-0.05, 2.4); ax.set_ylim(-0.08, 2.55)
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig5_selection_map_slide.png")); plt.close(fig)
 print("figures written to", OUT)
+
+# 6) YSZ validation: Arrhenius of O diffusion, v1 (friction 0.01/fs) and v2 (0.001/fs) ----------------
+from scipy.stats import linregress
+fig, ax = plt.subplots(figsize=(4.6, 3.6), dpi=400)
+for fn, mk, nm in [("arrhenius.json", "o", "Langevin 0.01 fs$^{-1}$"), ("arrhenius_v2.json", "s", "Langevin 0.001 fs$^{-1}$")]:
+    dd = json.load(open(os.path.join(ROOT, "06_ysz_md", fn)))
+    xs, ys = [], []
+    for T, v in dd["D_all"].items():
+        for D in v: xs.append(1000 / float(T)); ys.append(D)
+    rr = linregress(np.array(xs) / (1000 * 8.617333e-5), np.log(ys))
+    xf = np.linspace(min(xs), max(xs), 20)
+    col = NAVY if mk == "o" else ORANGE
+    ax.scatter(xs, ys, marker=mk, s=28, color=col, zorder=3)
+    ax.plot(xf, np.exp(rr.intercept + rr.slope * xf / (1000 * 8.617333e-5)), ls="--", lw=0.9, color=col,
+            label=f"{nm}: E$_a$ = {-rr.slope:.2f} ± {rr.stderr:.2f} eV")
+ax.set_yscale("log"); ax.set_xlabel("1000 / T (K$^{-1}$)"); ax.set_ylabel("D$_O$ (cm$^2$/s)")
+ax.set_title("8YSZ (316 atoms), M3GNet MD, 2 seeds per T\nexperiment E$_a$ ≈ 0.85 (high T) – 1.1 eV (low T)", fontsize=7.5)
+ax.legend(fontsize=6.5, frameon=False, loc="lower left")
+fig.tight_layout(); fig.savefig(os.path.join(OUT, "fig6_ysz_arrhenius.png")); plt.close(fig)
+print("fig6 written")
